@@ -230,6 +230,8 @@ namespace ASCOM.EasyFocus
             else if (actionName == "Position")
             {
                 focuserPosition = Convert.ToInt16(actionParameters);
+                if(m_serial != null)
+                m_serial.SetCurPos(focuserPosition);
                 return Position.ToString();
             }
             else
