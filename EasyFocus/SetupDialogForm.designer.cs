@@ -53,7 +53,7 @@ namespace ASCOM.EasyFocus
             this.cmdOK.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.cmdOK.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cmdOK.ForeColor = System.Drawing.Color.Red;
-            this.cmdOK.Location = new System.Drawing.Point(12, 139);
+            this.cmdOK.Location = new System.Drawing.Point(12, 170);
             this.cmdOK.Name = "cmdOK";
             this.cmdOK.Size = new System.Drawing.Size(59, 24);
             this.cmdOK.TabIndex = 0;
@@ -67,7 +67,7 @@ namespace ASCOM.EasyFocus
             this.cmdCancel.BackColor = System.Drawing.Color.Maroon;
             this.cmdCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cmdCancel.ForeColor = System.Drawing.Color.Red;
-            this.cmdCancel.Location = new System.Drawing.Point(12, 169);
+            this.cmdCancel.Location = new System.Drawing.Point(12, 200);
             this.cmdCancel.Name = "cmdCancel";
             this.cmdCancel.Size = new System.Drawing.Size(59, 25);
             this.cmdCancel.TabIndex = 1;
@@ -80,7 +80,7 @@ namespace ASCOM.EasyFocus
             this.picASCOM.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.picASCOM.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picASCOM.Image = global::ASCOM.EasyFocus.Properties.Resources.ASCOM;
-            this.picASCOM.Location = new System.Drawing.Point(135, 148);
+            this.picASCOM.Location = new System.Drawing.Point(135, 179);
             this.picASCOM.Name = "picASCOM";
             this.picASCOM.Size = new System.Drawing.Size(48, 56);
             this.picASCOM.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -105,7 +105,7 @@ namespace ASCOM.EasyFocus
             this.chkTrace.AutoSize = true;
             this.chkTrace.BackColor = System.Drawing.Color.Maroon;
             this.chkTrace.ForeColor = System.Drawing.Color.Red;
-            this.chkTrace.Location = new System.Drawing.Point(106, 123);
+            this.chkTrace.Location = new System.Drawing.Point(103, 136);
             this.chkTrace.Name = "chkTrace";
             this.chkTrace.Size = new System.Drawing.Size(69, 17);
             this.chkTrace.TabIndex = 6;
@@ -118,7 +118,7 @@ namespace ASCOM.EasyFocus
             this.comboBoxComPort.ForeColor = System.Drawing.Color.Red;
             this.comboBoxComPort.FormattingEnabled = true;
             this.comboBoxComPort.Location = new System.Drawing.Point(96, 6);
-            this.comboBoxComPort.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxComPort.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxComPort.Name = "comboBoxComPort";
             this.comboBoxComPort.Size = new System.Drawing.Size(76, 21);
             this.comboBoxComPort.TabIndex = 7;
@@ -140,7 +140,7 @@ namespace ASCOM.EasyFocus
             this.textStepDelay.BackColor = System.Drawing.SystemColors.InfoText;
             this.textStepDelay.ForeColor = System.Drawing.Color.Red;
             this.textStepDelay.Location = new System.Drawing.Point(96, 76);
-            this.textStepDelay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textStepDelay.Margin = new System.Windows.Forms.Padding(2);
             this.textStepDelay.Name = "textStepDelay";
             this.textStepDelay.Size = new System.Drawing.Size(76, 20);
             this.textStepDelay.TabIndex = 26;
@@ -164,7 +164,7 @@ namespace ASCOM.EasyFocus
             this.textMaxPos.BackColor = System.Drawing.SystemColors.InfoText;
             this.textMaxPos.ForeColor = System.Drawing.Color.Red;
             this.textMaxPos.Location = new System.Drawing.Point(96, 54);
-            this.textMaxPos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textMaxPos.Margin = new System.Windows.Forms.Padding(2);
             this.textMaxPos.Name = "textMaxPos";
             this.textMaxPos.Size = new System.Drawing.Size(76, 20);
             this.textMaxPos.TabIndex = 24;
@@ -188,7 +188,7 @@ namespace ASCOM.EasyFocus
             this.textMinPos.BackColor = System.Drawing.SystemColors.ControlText;
             this.textMinPos.ForeColor = System.Drawing.Color.Red;
             this.textMinPos.Location = new System.Drawing.Point(96, 31);
-            this.textMinPos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textMinPos.Margin = new System.Windows.Forms.Padding(2);
             this.textMinPos.Name = "textMinPos";
             this.textMinPos.Size = new System.Drawing.Size(76, 20);
             this.textMinPos.TabIndex = 22;
@@ -212,7 +212,7 @@ namespace ASCOM.EasyFocus
             this.textCurrentPos.BackColor = System.Drawing.SystemColors.InfoText;
             this.textCurrentPos.ForeColor = System.Drawing.Color.Red;
             this.textCurrentPos.Location = new System.Drawing.Point(96, 99);
-            this.textCurrentPos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textCurrentPos.Margin = new System.Windows.Forms.Padding(2);
             this.textCurrentPos.Name = "textCurrentPos";
             this.textCurrentPos.Size = new System.Drawing.Size(76, 20);
             this.textCurrentPos.TabIndex = 16;
@@ -224,7 +224,7 @@ namespace ASCOM.EasyFocus
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(185, 204);
+            this.ClientSize = new System.Drawing.Size(185, 235);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textStepDelay);
             this.Controls.Add(this.label3);
@@ -245,7 +245,7 @@ namespace ASCOM.EasyFocus
             this.Name = "SetupDialogForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EasyFocus Setup";
+            this.Text = "EasyFocus2 Setup";
             this.Load += new System.EventHandler(this.SetupDialogForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picASCOM)).EndInit();
             this.ResumeLayout(false);

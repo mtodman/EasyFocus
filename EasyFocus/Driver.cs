@@ -600,8 +600,8 @@ namespace ASCOM.EasyFocus
             get
             {
                 int t;
-                tl.LogMessage("Temperature Get", "Not implemented");
                 t = m_serial.GetData(GET_CUR_TEMP);
+                tl.LogMessage("Temperature Get", t.ToString());
                 return t;
             }
         }
